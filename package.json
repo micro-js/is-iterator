@@ -2,7 +2,7 @@
   "name": "@f/is-iterator",
   "description": "Check if iterator.",
   "repository": "git://github.com/micro-js/is-iterator.git",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
