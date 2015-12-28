@@ -59,7 +59,7 @@ test('obj with next and throw bool should not be iterator', function (t) {
   t.end()
 })
 
-test('obj non valid keys should not be iterator', function (t) {
-  t.equal(isIterator({next: function () {}, prev: function () {}}), false)
+test('obj non valid keys should be iterator', function (t) {
+  t.equal(isIterator({next: function () {}, _invoke: function () {}}), true)
   t.end()
 })
